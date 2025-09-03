@@ -1,30 +1,34 @@
-# Diagrama de Classes – Instrumentos
-
-```mermaid
 classDiagram
   class Produto {
+    +nome: string
+    +preco: float
     +getPreco(): float
-    +getDescricao(): string
+    +exibirInfo(): void
   }
 
   class Instrumento {
+    +marca: string
+    +modelo: string
     +tocar(): void
-    +afinar(): void
+    +getMarca(): string
   }
 
   class Cordas {
-    +trocarCordas(): void
-    +getMaterialCordas(): string
+    +numCordas: int
+    +afinar(): void
+    +getNumCordas(): int
   }
 
   class Metais {
+    +tipoBocal: string
     +limpar(): void
-    +getTonalidade(): string
+    +getTipoBocal(): string
   }
 
   class Percussao {
+    +tipoPele: string
     +bater(): void
-    +getTipoPercussao(): string
+    +getTipoPele(): string
   }
 
   Produto <|-- Instrumento
