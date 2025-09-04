@@ -1,6 +1,6 @@
 ```mermaid
 classDiagram
-  class instrumentos {
+  class Produtos {
      -nome: string
     -preco: float
     +getPreco(): float
@@ -27,7 +27,7 @@ classDiagram
     +getDescricao(): string
 }
 
-instrumentos "1" --> "*" Cordas : tem
-instrumentos "1" --> "*" Sopros : tem
-instrumentos "1" --> "*" Percussoes : tem
+Produtos "1" --> "*" Cordas : tem
+Produtos "1" --> "*" Sopros : tem
+Produtos "1" --> "*" Percussoes : tem
 ```
