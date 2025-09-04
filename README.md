@@ -36,7 +36,7 @@ class instrumentos {
     +getDescricao(): string
 }
 Produtos  <|-- instrumentos
-Produtos "1" --> "*" Cordas : tem
-Produtos "1" --> "*" Sopros : tem
-Produtos "1" --> "*" Percussoes : tem
+instrumetos "1" --> "*" Cordas : tem
+instrumetos "1" --> "*" Sopros : tem
+instrumetos "1" --> "*" Percussoes : tem
 ```
