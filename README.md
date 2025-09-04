@@ -27,5 +27,4 @@ classDiagram
 instrumentos "1" --> "*" Cordas : contém
 instrumentos "1" --> "*" Sopros : contém
 instrumentos "1" --> "*" Percussoes : contém
-  Pedido "*" --> "1" Cliente : feito por
 ```
