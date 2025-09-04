@@ -10,18 +10,21 @@ classDiagram
    -nome: string
     -preco: float
     +getPreco(): float
+    +getDescricao(): string
 }
 
  class Sopros {
    -nome: string
     -preco: float
     +getPreco(): float
+    +getDescricao(): string
 }
 
  class Percussoes {
    -nome: string
     -preco: float
     +getPreco(): float
+    +getDescricao(): string
 }
 
 instrumentos "1" --> "*" Cordas : contém
