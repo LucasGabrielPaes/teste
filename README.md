@@ -35,7 +35,7 @@ class instrumentos {
     +getPreco(): float
     +getDescricao(): string
 }
-
+Produtos  <|-- instrumentos
 Produtos "1" --> "*" Cordas : tem
 Produtos "1" --> "*" Sopros : tem
 Produtos "1" --> "*" Percussoes : tem
