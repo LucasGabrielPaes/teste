@@ -27,7 +27,7 @@ classDiagram
     +getDescricao(): string
 }
 
-instrumentos "1" --> "*" Cordas : contém
-instrumentos "1" --> "*" Sopros : contém
-instrumentos "1" --> "*" Percussoes : contém
+instrumentos "1" --> "*" Cordas : 
+instrumentos "1" --> "*" Sopros : 
+instrumentos "1" --> "*" Percussoes : 
 ```
