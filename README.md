@@ -4,7 +4,17 @@ classDiagram
      -nome: string
     -preco: float
     +getPreco(): float
+    +getDescricao(): string
   }
+
+classDiagram
+  class Instrumentos{
+    nome: string
+    -preco: float
+    +getPreco(): float
+    +getDescricao(): string
+}
+
 
   class Cordas {
    -nome: string
