@@ -23,4 +23,7 @@ classDiagram
     -preco: float
     +getPreco(): float
 }
+
+Pedido "1" --> "*" Produto : contém
+  Pedido "*" --> "1" Cliente : feito por
 ```
