@@ -1,15 +1,14 @@
 ```mermaid
 classDiagram
   class instrumentos {
-    - nome: string
-    +listarProdutos() void
-    +getPreco()
+     -nome: string
+    -preco: float
+    +getPreco(): float
   }
-classDiagram
-  class Cordas{
-  -nome: string
-  - nome: string
-  +listarProdutos() void
-  +getPreco()
+
+  class Cordas {
+   -nome: string
+    -preco: float
+    +getPreco(): float
 }
 ```
