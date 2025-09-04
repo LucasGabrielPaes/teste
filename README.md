@@ -7,6 +7,13 @@ classDiagram
     +getDescricao(): string
   }
 
+class instrumentos {
+   -nome: string
+    -preco: float
+    +getPreco(): float
+    +getDescricao(): string
+}
+
 
   class Cordas {
    -nome: string
