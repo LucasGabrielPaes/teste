@@ -11,4 +11,16 @@ classDiagram
     -preco: float
     +getPreco(): float
 }
+
+ class Sopros {
+   -nome: string
+    -preco: float
+    +getPreco(): float
+}
+
+ class Percussoes {
+   -nome: string
+    -preco: float
+    +getPreco(): float
+}
 ```
